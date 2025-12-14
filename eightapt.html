@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/703cd02033.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_right" />
+</head>
+<body id="apartmentonebody">
+    <div class="apteighthero">
+       <a href="#pictures"><button class="aptonebtn"><i class="fa-solid fa-camera"></i> VIEW MORE PICTURES</button></a>
+    </div>
+
+    <div class="content">
+      <h1>Splendid One Bed Pentfloor Apartment</h1>
+      <div class="paragraphone">
+        <p><i class="fa-solid fa-circle"></i>2 guests </p>
+        <p><i class="fa-solid fa-circle"></i>1 bedroom</p>
+        <p><i class="fa-solid fa-circle"></i>1 bath</p>
+      </div>
+      
+      <div class="hostone">
+         <p><i class="fa-solid fa-star"></i>0 reviews</p>
+         
+         <div class="hostname">
+           <div class="jessica">W</div>
+           <div>
+             <h4>Hosted by Winifred</h4>
+             <p>1 year hosting</p>
+           </div>
+         </div>
+      </div>
+      <hr class="lineone">
+    </div>
+
+    <div class="pictures" id="pictures">
+       <h2>More Pictures</h2>
+       <div class="slidercontainer">
+         <div class="slider">
+           <img class="slide active" src="images/eightaptimg1.jpg" alt="">
+           <img class="slide" src="images/eightaptimg2.jpg" alt="">
+           <img class="slide" src="images/eightaptimg3.jpg" alt="">
+           <img class="slide" src="images/eightaptimg4.jpg" alt="">
+           <img class="slide" src="images/eightaptimg5.jpg" alt="">
+           <img class="slide" src="images/eightaptimg6.jpg" alt="">
+           <img class="slide" src="images/eightaptimg7.jpg" alt="">
+           <img class="slide" src="images/eightaptimg8.jpg" alt="">
+           <img class="slide" src="images/eightaptimg9.jpg" alt="">
+           <img class="slide" src="images/eightaptimg10.jpg" alt="">
+           <img class="slide" src="images/eightaptimg11.jpg" alt="">
+           <img class="slide" src="images/eightaptimg12.jpg" alt="">
+           <img class="slide" src="images/eightaptimg13.jpg" alt="">
+         </div>
+
+         <div class="arrow left" onclick="prevSlide()"><i class="fa-solid fa-arrow-left"></i></div>
+         <div class="arrow right" onclick="nextSlide()"><i class="fa-solid fa-arrow-right"></i></div>
+       </div>
+       <hr style="margin-top: 30px;">
+    </div>
+
+    <div class="offer">
+       <div class="essentials">
+          <h2>What this apartment offer</h2>
+          <p><i class="fa-solid fa-shower"></i>Essentials</p>
+          <p><i class="fa-solid fa-kitchen-set"></i>Kitchen</p>
+          <p><i class="fa-solid fa-bed"></i>Bed linens</p>
+          <p><i class="fa-solid fa-fire-burner"></i>Cooking basics</p>
+          <p><i class="fa-solid fa-mattress-pillow"></i>Extra pillows and blankets</p>
+       </div>
+       <div class="hostdetails">
+         <div class="details">
+           <div class="detailsone">
+             <h2>0</h2>
+             <p>Reviews</p>
+           </div>
+           <div class="detailstwo">
+             <h2>0.0</h2>
+             <p>Ratings</p>
+           </div>
+           <div class="detailsthree">
+             <h2>7</h2>
+             <p>Months</p>
+             <p>Hosting</p>
+           </div>
+         </div>
+         <div style="padding-left: 10px; padding-right: 10px;">
+            <h3>Winifred is a Superhost</h3>
+            <p>Winifred is a friendly, responsive host who keeps her space clean and makes sure guests feel comfortable.</p>
+            <h3>Host details</h3>
+            <p>Response rate: 94%</p>
+            <p>Responds within an hour</p>
+            <button>Message Host</button>
+         </div>
+       </div>
+    </div>
+
+    <div class="bookingcontainer">
+      <div class="formbooking">
+        <input type="text" id="bookingCalendar">
+        <button class="book-btn">Book Now</button>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footerone">
+        <img src="images/secondlogo.png" alt="">
+        <p>HavenStay offers modern, comfortable serviced apartments for flexible daily, weekly, and monthly stays—perfect for work, travel, or a quick getaway.</p>
+      </div>
+      <div class="scndfoterpart">
+          <div class="footertwo">
+            <h3>Quick Links</h3>
+            <p class="linkitems"><span class="material-symbols-outlined">arrow_right</span>Home</p>
+            <p class="linkitems"><span class="material-symbols-outlined">arrow_right</span>About</p>
+            <p class="linkitems"><span class="material-symbols-outlined">arrow_right</span>Apartment</p>
+            <p class="linkitems"><span class="material-symbols-outlined">arrow_right</span>Contact</p>
+            <p class="linkitems"><span class="material-symbols-outlined">arrow_right</span>FAQ</p>
+          </div>
+          <div class="footerthree">
+            <h3>Follow</h3>
+            <p><i class="fa-brands fa-instagram"></i>Instagram</p>
+            <p><i class="fa-brands fa-facebook"></i>Facebook</p>
+            <p><i class="fa-brands fa-tiktok"></i>Tiktok</p>
+            <p><i class="fa-brands fa-youtube"></i>Youtube</p>
+          </div>
+          <div class="footerfour">
+            <h3>Contact Us</h3>
+            <p><i class="fa-solid fa-location-dot"></i>8 Coral Ridge Apartments, Ikoyi, Lagos</p>
+            <p><i class="fa-solid fa-mobile-button"></i> (234) 957 772 6456</p>
+            <p><i class="fa-regular fa-envelope"></i>info@havenstay.com</p>
+          </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>
