@@ -39,6 +39,28 @@ if (hamburger && navlist) {
 }
 
 
+// navbar on mobile
+
+const apartmentLink = document.querySelector(".navlist > li:nth-child(2) > a");
+const dropdown = document.querySelector(".dropdown");
+
+apartmentLink.addEventListener("click", function (e) {
+  if (window.innerWidth <= 700) {
+    e.preventDefault();
+    dropdown.classList.toggle("open");
+  }
+});
+
+// New snippet to allow proper dropdown scrolling on mobile
+dropdown.addEventListener('touchstart', function (e) {
+  e.stopPropagation();
+}, { passive: false });
+
+dropdown.addEventListener('touchmove', function (e) {
+  e.stopPropagation();
+}, { passive: false });
+
+
 // Search Input
 const searchInput = document.getElementById("searchInput");
 
