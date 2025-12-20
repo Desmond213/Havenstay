@@ -2401,9 +2401,6 @@ html {
   }
 
 
-  .navlist li a:hover{
-    /* background-color:green; */
-  }
 
   .menubtn button{
     padding: 10px 20px;
@@ -2475,11 +2472,7 @@ html {
 
 }
 
-@media (hover: hover) {
-  .navlist li a:hover {
-    /* background-color: #FFD700; */
-  }
-}
+
 
   
 
