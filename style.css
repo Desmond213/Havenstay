@@ -1060,10 +1060,10 @@ html {
   bottom: 20px;
   right: 20px;
   font-size: 17px;
-  background-color: #1C64F2;
+  background-color: #2E7D61;
   color: white;
-  padding: 10px 6px;
-  border-radius: 10px;
+  padding: 10px 10px;
+  border-radius: 50%;
 }
 
 
