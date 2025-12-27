@@ -1202,6 +1202,16 @@ html {
 
 .lineone{
   margin-top: 25px;
+  border: none;
+  background-color: #FFD700;
+  height: 1px;
+}
+
+.linetwo{
+  margin-top: 25px;
+  border: none;
+  background-color: #FFD700;
+  height: 1px;
 }
 
 .abtfirstapt{
