@@ -137,7 +137,7 @@ flatpickr("#bookingCalendar", {
 });
 
 // body background color
-const bodyColor = document.getElementById("apartmentonebody").style.backgroundColor = "#F9FAFB"
+const bodyColor = document.getElementById("apartmentonebody").style.backgroundColor = "#FFFFF0"
 
 
 // booking submission

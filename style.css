@@ -374,6 +374,7 @@ html {
   }
 }
 
+
 .product-page{
   display: none;
   padding-top: 40px;
@@ -425,7 +426,7 @@ html {
 }
 
 .fifthflex{
-  margin-top: 10px;
+  margin-top: 3px;
   padding-left: 10px;
   padding-right: 10px;
   display: flex;
@@ -467,7 +468,7 @@ html {
 }
 
 .sixflex{
-  margin-top: 10px;
+  margin-top: 3px;
   padding-left: 10px;
   padding-right: 10px;
   display: flex;
@@ -509,7 +510,7 @@ html {
 }
 
 .sevenflex{
-  margin-top: 10px;
+  margin-top: 3px;
   padding-left: 10px;
   padding-right: 10px;
   display: flex;
@@ -551,7 +552,7 @@ html {
 }
 
 .eightflex{
-  margin-top: 10px;
+  margin-top: 3px;
   padding-left: 10px;
   padding-right: 10px;
   display: flex;
@@ -592,6 +593,15 @@ html {
 }
 
 .flatnine{
+  height: 250px;
+  width: 100%;
+  max-width: 260px;
+  background-image: url(/images/fifthaptimghero.jpg);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.flattenn{
   height: 250px;
   width: 100%;
   max-width: 260px;
@@ -1118,18 +1128,41 @@ html {
 .paragraphone{
   display: flex;
   margin-top: 10px;
-  gap: 10px;
+  gap: 15px;
   align-items: center;
 }
 
 .paragraphone p{
   font-family: var(---main-font);
+  color: #4A4A4A;
 }
 
 .paragraphone p i{
-  font-size: 8px;
+  font-size: 15px;
   padding-right: 5px;
   align-items: center;
+}
+
+.paragraphone button{
+  font-family: var(---main-font);
+  color: #4A4A4A;
+  border: none;
+  padding: 5px 5px;
+  border-radius: 5px;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.paragraphone button i{
+  padding-left: 3px;
+}
+
+.paragraphone button:hover{
+  color: #333333;
+}
+
+.paragraphone button i:hover{
+  color: #333333;
 }
 
 .content p{
@@ -1171,6 +1204,24 @@ html {
   margin-top: 25px;
 }
 
+.abtfirstapt{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.abtfirstapt h3{
+  color: #2E7D61;
+  font-family: var(---secondary-font);
+  font-weight: 500;
+}
+
+.abtfirstapt p{
+  font-family: var(---main-font);
+  padding-top: 10px;
+  /* color: #4A4A4A; */
+  line-height: 1.5;
+}
+
 .jessica{
   height: 40px;
   width: 40px;
@@ -1181,6 +1232,7 @@ html {
   justify-content: center;
   align-items: center;
   font-family: var(---main-font);
+  color: #FFD700;
 }
 
 .pictures{
@@ -1188,7 +1240,7 @@ html {
   padding-right: 20px;
 }
 
-.pictures h2{
+.pictures h3{
   font-family: var(---secondary-font);
   padding-top: 30px;
   font-weight: 500;
@@ -1264,12 +1316,18 @@ html {
 .essentials p{
   font-family: var(---main-font);
   padding-top: 20px;
-  color: #4A4A4A;
+  
 }
 
-.essentials p i{
+
+.amenity{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.material-icons{
   color: #FFD700;
-  padding-right: 5px;
 }
 
 .hostdetails{
@@ -2587,3 +2645,7 @@ html {
     grid-template-columns: 1fr;
   }
 }
+
+
+
+
