@@ -220,6 +220,7 @@ html {
   box-shadow: 0 0 5px rgba(0,152,222,0.3);
 }
 
+
 /* introduction styling */
 
 .introduction{
@@ -1117,7 +1118,7 @@ html {
   padding-right: 20px;
 }
 
-.content h1{
+.content h2{
   padding-top: 20px;
   font-family: var(---secondary-font);
   font-weight: 500;
@@ -1138,9 +1139,13 @@ html {
 }
 
 .paragraphone p i{
-  font-size: 15px;
+  font-size: 10px;
   padding-right: 5px;
   align-items: center;
+}
+
+#location i{
+  font-size: 15px;
 }
 
 .paragraphone button{
@@ -1175,7 +1180,7 @@ html {
 }
 
 .hostone{
-  margin-top: 15px;
+  margin-top: 20px;
   display: flex;
   gap: 10px;
   justify-content: space-between;
@@ -1191,6 +1196,10 @@ html {
   padding-top: 0px;
   font-size: 13px;
   padding-top: 3px;
+}
+
+.hostone p i{
+  color: #FFD700;
 }
 
 
@@ -1214,6 +1223,12 @@ html {
   height: 1px;
 }
 
+.linethree{
+  border: none;
+  background-color: #FFD700;
+  height: 1px;
+}
+
 .abtfirstapt{
   padding-left: 20px;
   padding-right: 20px;
@@ -1223,6 +1238,7 @@ html {
   color: #2E7D61;
   font-family: var(---secondary-font);
   font-weight: 500;
+  padding-top: 20px;
 }
 
 .abtfirstapt p{
@@ -1326,7 +1342,7 @@ html {
 .essentials p{
   font-family: var(---main-font);
   padding-top: 20px;
-  
+  font-size: 13px;
 }
 
 
@@ -1338,6 +1354,13 @@ html {
 
 .material-icons{
   color: #FFD700;
+  
+}
+
+.amenity .material-icons{
+  font-size: 14px;
+  align-items: center;
+  vertical-align: bottom; 
 }
 
 .hostdetails{
