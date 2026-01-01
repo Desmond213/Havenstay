@@ -1247,6 +1247,7 @@ html {
 .paragraphone p{
   font-family: var(---main-font);
   color: #4A4A4A;
+  color: black;
 }
 
 .paragraphone p i{
@@ -2224,7 +2225,8 @@ html {
   }
 
   button:hover{
-    background-color: #1650C2;
+    background-color: #FFD700;
+    color: black;
   }
 }
 
