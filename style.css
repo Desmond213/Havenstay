@@ -406,6 +406,10 @@ html {
 .apartmentfive{
   width: 100%;
   max-width: 260px;
+  padding-bottom: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   /* background-color: red; */
 
   h3{
@@ -415,6 +419,11 @@ html {
     padding-right: 10px;
     color: #2E7D61;
   }
+}
+
+.apartmentfive:hover{
+  transform: scale(1.01); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
 }
 
 .flatfive{
@@ -448,6 +457,10 @@ html {
 .apartment6ix{
   width: 100%;
   max-width: 260px;
+  padding-bottom: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   /* background-color: red; */
 
   h3{
@@ -457,6 +470,11 @@ html {
     padding-right: 10px;
     color: #2E7D61;
   }
+}
+
+.apartment6ix:hover{
+  transform: scale(1.01); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
 }
 
 .flatsix{
@@ -490,6 +508,10 @@ html {
 .apartmentseven{
   width: 100%;
   max-width: 260px;
+  padding-bottom: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   /* background-color: red; */
 
   h3{
@@ -499,6 +521,11 @@ html {
     padding-right: 10px;
     color: #2E7D61;
   }
+}
+
+.apartmentseven:hover{
+  transform: scale(1.01); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
 }
 
 .flatseven{
@@ -532,6 +559,11 @@ html {
 .apartmenteight{
   width: 100%;
   max-width: 260px;
+  padding-bottom: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
   /* background-color: red; */
 
   h3{
@@ -541,6 +573,11 @@ html {
     padding-right: 10px;
     color: #2E7D61;
   }
+}
+
+.apartmenteight:hover{
+  transform: scale(1.01); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .flateight{
@@ -582,7 +619,13 @@ html {
 .apartmentnine{
   width: 100%;
   max-width: 260px;
-  /* background-color: red; */
+  cursor: pointer;
+  padding-bottom: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+   
+  
 
   h3{
     font-family: var(---main-font);
@@ -592,6 +635,13 @@ html {
     color: #2E7D61;
   }
 }
+
+.apartmentnine:hover{
+  transform: scale(1.01); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
 
 .flatnine{
   height: 250px;
@@ -614,6 +664,10 @@ html {
 .apartmentten{
   width: 100%;
   max-width: 260px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding-bottom: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   /* background-color: red; */
 
   h3{
@@ -623,6 +677,11 @@ html {
     padding-right: 10px;
     color: #2E7D61;
   }
+}
+
+.apartmentten:hover{
+  transform: scale(1.01); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .flatten{
@@ -637,6 +696,10 @@ html {
 .apartmenteleven{
   width: 100%;
   max-width: 260px;
+  padding-bottom: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   
 
   h3{
@@ -646,6 +709,11 @@ html {
     padding-right: 10px;
     color: #2E7D61;
   }
+}
+
+.apartmenteleven:hover{
+  transform: scale(1.01); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .flateleven{
@@ -660,6 +728,10 @@ html {
 .apartmenttwelve{
   width: 100%;
   max-width: 260px;
+  padding-bottom: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   
 
   h3{
@@ -669,6 +741,11 @@ html {
     padding-right: 10px;
     color: #2E7D61;
   }
+}
+
+.apartmenttwelve:hover{
+  transform: scale(1.01); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .flattwelve{
@@ -691,6 +768,10 @@ html {
 .apartmentthirteen{
   width: 100%;
   max-width: 260px;
+  padding-bottom: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   
 
   h3{
@@ -700,6 +781,11 @@ html {
     padding-right: 10px;
     color: #2E7D61;
   }
+}
+
+.apartmentthirteen:hover{
+  transform: scale(1.01); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .flatthirteen{
@@ -714,6 +800,10 @@ html {
 .apartmentfourteen{
   width: 100%;
   max-width: 260px;
+  padding-bottom: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   
 
   h3{
@@ -723,6 +813,11 @@ html {
     padding-right: 10px;
     color: #2E7D61;
   }
+}
+
+.apartmentfourteen:hover{
+  transform: scale(1.01); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .flatfourteen{
@@ -737,6 +832,10 @@ html {
 .apartmentfifteen{
   width: 100%;
   max-width: 260px;
+  padding-bottom: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   
 
   h3{
@@ -746,6 +845,11 @@ html {
     padding-right: 10px;
     color: #2E7D61;
   }
+}
+
+.apartmentfifteen:hover{
+  transform: scale(1.01); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .flatfifteen{
@@ -760,6 +864,10 @@ html {
 .apartmentsisteen{
   width: 100%;
   max-width: 260px;
+  padding-bottom: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   
 
   h3{
@@ -769,6 +877,11 @@ html {
     padding-right: 10px;
     color: #2E7D61;
   }
+}
+
+.apartmentsisteen:hover{
+  transform: scale(1.01); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .flatsixteen{
@@ -947,8 +1060,6 @@ html {
 /* footer styling */
 
 .footer{
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
   background-color: #2E7D61;
   padding-left: 20px;
   padding-right: 20px;
@@ -1121,9 +1232,9 @@ html {
 .content h2{
   padding-top: 20px;
   font-family: var(---secondary-font);
-  font-weight: 500;
+  font-weight: 600;
   color: #2E7D61;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .paragraphone{
@@ -1212,20 +1323,20 @@ html {
 .lineone{
   margin-top: 25px;
   border: none;
-  background-color: #FFD700;
+  background-color: #ffd90087;
   height: 1px;
 }
 
 .linetwo{
   margin-top: 25px;
   border: none;
-  background-color: #FFD700;
+  background-color: #ffd90087;
   height: 1px;
 }
 
 .linethree{
   border: none;
-  background-color: #FFD700;
+  background-color: #ffd90087;
   height: 1px;
 }
 
@@ -1237,7 +1348,7 @@ html {
 .abtfirstapt h3{
   color: #2E7D61;
   font-family: var(---secondary-font);
-  font-weight: 500;
+  font-weight: 600;
   padding-top: 20px;
 }
 
@@ -1246,6 +1357,7 @@ html {
   padding-top: 10px;
   /* color: #4A4A4A; */
   line-height: 1.5;
+  font-size: 16px;
 }
 
 .jessica{
@@ -1269,7 +1381,7 @@ html {
 .pictures h3{
   font-family: var(---secondary-font);
   padding-top: 30px;
-  font-weight: 500;
+  font-weight: 600;
   color: #2E7D61;
 }
 
@@ -1336,7 +1448,7 @@ html {
 .essentials h2{
   color: #2E7D61;
   font-family: var(---secondary-font);
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .essentials p{
@@ -1368,7 +1480,7 @@ html {
   /* max-width: 500px; */
   background-color: white;
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 2px 0.5px rgba(255, 215, 0, 0.75);
   padding-bottom: 20px;
 }
 
@@ -1393,6 +1505,20 @@ html {
   font-family: var(---main-font);
   border-radius: 30px;
   color: #4A4A4A;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.hostdetails button:hover {
+  background-color: #e6c200;
+  color: #2f2f2f;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.hostingheights p{
+ line-height: 1.5;
 }
 
 .details{
@@ -1543,6 +1669,213 @@ html {
   transition: all 0.2s ease; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
+}
+
+/* blog styling starts */
+.blogcontainer{
+  height: 400px;
+  background-image: url(/images/bloghero3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.475);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.blogcontent{
+  width: 100%;
+  /* max-width: 1100px; */
+  /* background-color: #1C64F2; */
+  /* height: 150px; */
+}
+
+.blogcontent h1{
+  font-family: var(---main-font);
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+}
+
+.blogcontent p{
+  font-family: var(---main-font);
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+}
+
+.blogcalltoaction{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.blogcalltoaction button{
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-family: var(---main-font);
+  border-radius: 0.75rem;
+  border: none;
+  background-color: #FFD700;
+  cursor: pointer;
+  transition: background-color 0.3s ease,
+              transform 0.2s ease,
+              box-shadow 0.2s ease;
+}
+
+.blogcalltoaction button:hover {
+  background-color: #e6c200; 
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.blogcalltoaction button i{
+  padding-left: 5px;
+}
+
+#blogbody{
+  background-color: #F3F6F8;
+}
+
+.blogposts{
+  padding-left: 20px;
+  padding-right: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.blogpostone{
+  /* height: 400px; */
+  background-color: white;
+  border: 1px solid #FFD700;
+  padding-bottom: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.blogpostone:hover {
+  transform: scale(1.01); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+}
+
+.blogpostone h2{
+  font-family: var(---secondary-font);
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 500;
+  padding-top: 15px;
+  font-size: 20px;
+  color: #2E7D61;
+}
+
+.blogpostone p{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: var(---main-font);
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 15px;
+  color: #333333;
+}
+
+.blogpostone a{
+  padding-left: 10px;
+  padding-right: 10px;
+  
+  font-family: var(---main-font);
+  font-size: 12px;
+}
+
+.blogpostone a i{
+  padding-left: 5px;
+}
+
+.blogimone{
+  height: 200px;
+  width: 100%;
+  background-image: url(/images/blogimgone.jpg);
+  background-size: cover;
+  background-position: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.blogimgtwo{
+  height: 200px;
+  width: 100%;
+  background-image: url(/images/10thaptimghero.jpg);
+  background-size: cover;
+  background-position: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.blogimgthree{
+  height: 200px;
+  width: 100%;
+  background-image: url(/images/blogimg2.jpg);
+  background-size: cover;
+  background-position: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.blogimgfour{
+  height: 200px;
+  width: 100%;
+  background-image: url(/images/blogimg3.jpg);
+  background-size: cover;
+  background-position: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.blogimgfive{
+  height: 200px;
+  width: 100%;
+  background-image: url(/images/blogimg4.jpg);
+  background-size: cover;
+  background-position: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.blogimgsix{
+  height: 200px;
+  width: 100%;
+  background-image: url(/images/blogimg5.jpg);
+  background-size: cover;
+  background-position: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.blogimgseven{
+  height: 200px;
+  width: 100%;
+  background-image: url(/images/blogimg6.jpg);
+  background-size: cover;
+  background-position: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.blogimgeight{
+  height: 200px;
+  width: 100%;
+  background-image: url(/images/9thaptimghero.jpg);
+  background-size: cover;
+  background-position: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 
@@ -2166,6 +2499,8 @@ html {
 
 
 
+
+
 /* about responsiveness starts */
 @media (max-width: 916px) {
   .team{
@@ -2361,6 +2696,12 @@ html {
 
   .aptpicsix{
     max-width: 439px;
+  }
+
+  /* blog responsiveness */
+  .blogposts{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -2561,6 +2902,12 @@ html {
     display: block;
   }
 
+  /* blog responsiveness */
+  .blogposts{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
 }
 
 
@@ -2676,6 +3023,129 @@ html {
   .contacticons{
     display: grid;
     grid-template-columns: 1fr;
+  }
+
+  .blogcontainer{
+    height: 500px;
+  }
+
+  
+
+  .blogcontent h1{
+    text-align: left;
+    font-size: 2.8rem;
+    font-weight: 700;
+  }
+
+  .blogcontent p{
+    text-align: left;
+    font-size: 1.125rem;
+  }
+
+  .blogcalltoaction{
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+  }
+
+  .blogcalltoaction button{
+    font-size: 1rem;
+  }
+
+  .apartmentfive{
+    max-width: 526px;
+  }
+
+  .flatfive{
+    max-width: 526px;
+  }
+
+  .apartment6ix{
+    max-width: 526px;
+  }
+
+  .flatsix{
+    max-width: 526px;
+  }
+
+  .apartmentseven{
+    max-width: 526px;
+  }
+
+  .flatseven{
+    max-width: 526px;
+  }
+
+  .apartmenteight{
+    max-width: 526px;
+  }
+
+  .flateight{
+    max-width: 526px;
+  }
+
+  .apartmentten{
+   max-width: 526px;
+  }
+
+  .flattenn{
+    max-width: 526px;
+  }
+
+  .apartmentten{
+    max-width: 526px;
+  }
+
+  .flatten{
+    max-width: 526px;
+  }
+
+  .apartmenteleven{
+    max-width: 526px;
+  }
+
+  .flateleven{
+    max-width: 526px;
+  }
+
+  .apartmenttwelve{
+    max-width: 526px;
+  }
+
+  .flattwelve{
+    max-width: 526px;
+  }
+
+  .apartmentthirteen{
+    max-width: 526px;
+  }
+
+  .flatthirteen{
+    max-width: 526px;
+  } 
+
+  .apartmentfourteen{
+    max-width: 526px;
+  }
+
+  .flatfourteen{
+    max-width: 526px;
+  }
+
+  .apartmentfifteen{
+    max-width: 526px;
+  }
+
+  .flatfifteen{
+    max-width: 526px;
+  }
+
+  .apartmentsisteen{
+    max-width: 526px;
+  }
+
+  .flatsixteen{
+    max-width: 526px;
   }
 }
 

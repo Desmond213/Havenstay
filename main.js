@@ -141,15 +141,28 @@ const bodyColor = document.getElementById("apartmentonebody").style.backgroundCo
 
 
 // booking submission
-submitButton.addEventListener("click", () => {
-  submitButton.textContent = "Submitting...";
-  submitButton.disabled = true; // optional: prevents double-clicks
+const bookingInput = document.getElementById("bookingCalendar");
+const submitButton = document.getElementById("submitButton");
 
-  // Simulate submitting
-  setTimeout(() => {
-    submitButton.textContent = "Submitted ✔️";
-  }, 1000);
-});
+  submitButton.addEventListener("click", function () {
+    // Check if a date is selected
+    if (bookingInput.value === "") {
+      alert("Please select a booking date first.");
+      return;
+    }
+
+    // Show confirmation popup
+    alert("Your form has been submitted.");
+
+    // Change button text
+    submitButton.textContent = "Submitted";
+
+    
+    submitButton.disabled = true;
+    submitButton.style.backgroundColor = "#aaa";
+    submitButton.style.cursor = "not-allowed";
+  });
+
 
 
 
